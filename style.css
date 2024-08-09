@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  border-radius: 21px;
+  }
+
+.slidebar {
+   background-color: rgba(248, 245, 245, 0.86);
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+
+.main {
+  background-color: white;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+}
+
+.slidebar nav {
+  padding: 72px;
+}
+
+.slidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 33px;
+}
+
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+    
+
+.main {
+  background-color: white;
+  width: 80vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  background-color: rgb(235, 13, 172);
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+  font-size: 40px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.about {
+  font-size: 40px;
+}
+
+.moreabout {
+  font-size: 22px;
+  margin-top: 23px;
+  font-family: "Roboto", sans-serif;
+}
+
+.buttons {
+  margin-top: 34px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 21px;
+  padding: 9px 14px;
+  color: white;
+  border-radius: 21px;
+  background: dodgerblue;
+  font-weight: bold;
+  margin: 0 3px;
+  cursor: pointer;
+  
+}
+
+.btn-sm{
+  font-size: 10px;
+  margin: 12px;
+  padding: 7px 13px;
+}
+
+.btn:hover{
+    color: dodgerblue;
+    background: white;
+}
+
+.devPic img{
+  height: 58vh;
+}
+
+.contactform{
+  padding: 0 34px;
+  padding-top: 144px;
+  font-family: "Fira Sans", sans-serif;
+  margin: 0 88px;
+
+}
+
+.contactform h1{
+  font-family: "Source Code Pro", monospace;
+  padding: 12px 0;
+}
+
+.contactform form div{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input{
+  padding: 6px;
+  width: 25vw;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+#emailHelp{
+  margin: 0 5px;
+  font-size: 11px;
+  color: midnightblue
+  padding 3px 0 0 0;
+}
+
+#form-check{
+ flex-direction: row;
+}
+
+#form-check input{
+ width: 15px;
+ margin: 4px 1;
+}
+
+.blogContainer{
+ margin: 40px 88px;
+}
+
+.blogItem{
+ margin: 20px;
+ font-family: "Fira Sans", sans-serif;
+}
+
+ h1{
+  font-family: "Fira Sans", sans-serif;
+  margin: 23px;
+}
+
+ p{
+  font-family: "Source Code Pro", monospace;
+}
+
+.intro{
+  margin:  88px;
+}
+
+.intro h2{
+  font-family: "Fira Sans", sans-serif;
+  margin:  12px;
+}
+
+.intro p{
+  font-family: "Source Code Pro", monospace;
+  margin:  12px;
+}
+
+.skillcontainer{
+  padding: 12px;
+}
+
+.skillItem{
+  display: flex;
+  align-items: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 900;
+}
+
+.skill{
+  width: 265px;
+  height: 6px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.hundered{
+  width: 265px;
+  background: blueviolet;
+}
+
+.fifty{
+  width: 125px;
+  background-color: aqua;
+}
+
+.t5{
+  width: 75px;
+  background-color: yellow;
+}
+
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.ham{
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+.cross{
+  margin-left: 185px;
+  margin-top: 10px;
+}
+
+.devPic{
+  display: none;
+}
+
